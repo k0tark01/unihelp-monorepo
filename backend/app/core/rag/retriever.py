@@ -28,6 +28,7 @@ class RetrievedDocument:
     content: str
     doc_type: Optional[str]
     similarity: float
+    file_url: Optional[str] = None
     rerank_score: Optional[float] = None
     keyword_score: float = 0.0
     title_score: float = 0.0
@@ -39,6 +40,7 @@ class RetrievedDocument:
             'title': self.title,
             'content': self.content,
             'type': self.doc_type,
+            'file_url': self.file_url,
             'similarity': self.similarity,
             'rerank_score': self.rerank_score,
         }
@@ -122,6 +124,7 @@ class DocumentRetriever:
                 title=r.get('title', ''),
                 content=r.get('content', ''),
                 doc_type=r.get('type'),
+                file_url=r.get('file_url'),
                 similarity=float(r.get('similarity', 0)),
             )
             for r in rows

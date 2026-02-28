@@ -13,7 +13,7 @@ PUT  /api/auth/profile    – Update user profile fields
 
 from flask import Blueprint, request, jsonify, g
 
-from app.supabase_client import get_supabase
+from app.supabase_client import get_supabase, get_supabase_admin
 from app.services.auth_service import AuthService, RegisterDTO, LoginDTO
 from app.utils.auth_middleware import require_auth
 from app.exceptions import ValidationError, UnauthorizedError, NotFoundError, DatabaseError
@@ -23,7 +23,7 @@ auth_bp = Blueprint("auth", __name__)
 
 def _get_auth_service() -> AuthService:
     """Create an AuthService bound to the current Supabase client."""
-    return AuthService(get_supabase())
+    return AuthService(get_supabase(), admin_client=get_supabase_admin())
 
 
 def _extract_token() -> str | None:

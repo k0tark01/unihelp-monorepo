@@ -74,6 +74,7 @@ export const fr = {
   /* ── Toast ────────────────────────────────── */
   toast: {
     chatError: "Échec de la requête",
+    sessionExpired: "Session expirée. Veuillez vous reconnecter.",
   },
 
   /* ── Login ────────────────────────────────── */
@@ -121,6 +122,7 @@ export const fr = {
     signIn: "Se connecter",
     successMsg:
       "Compte créé ! Veuillez vérifier votre e-mail pour confirmer votre adresse.",
+    errorGeneric: "L'inscription a échoué. Veuillez réessayer.",
   },
 
   /* ── Departments ──────────────────────────── */

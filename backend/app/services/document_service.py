@@ -43,7 +43,7 @@ class DocumentService:
         Returns:
             List of documents
         """
-        query = self.supabase.table('documents').select('id, title, type, created_at')
+        query = self.supabase.table('documents').select('id, title, type, file_url, created_at')
         
         if filters:
             if filters.doc_type:
@@ -71,7 +71,7 @@ class DocumentService:
         try:
             response = (
                 self.supabase.table('documents')
-                .select('id, title, content, type, created_at')
+                .select('id, title, content, type, file_url, created_at')
                 .eq('id', doc_id)
                 .single()
                 .execute()
@@ -80,30 +80,39 @@ class DocumentService:
         except Exception:
             return None
     
-    def create(self, title: str, content: str, doc_type: Optional[str] = None) -> Dict:
+    def create(
+        self,
+        title: str,
+        content: str,
+        doc_type: Optional[str] = None,
+        file_url: Optional[str] = None,
+    ) -> Dict:
         """
         Create a new document.
-        
+
         Args:
             title: Document title
             content: Document content
             doc_type: Document type
-        
+            file_url: Optional public URL of the original file in Supabase Storage
+
         Returns:
             Created document data
         """
         # Generate embedding
         embedding_text = f"{title}\n\n{content}"
         embedding = self.embedding_service.embed_text(embedding_text)
-        
-        # Insert document
-        response = self.supabase.table('documents').insert({
+
+        row = {
             'title': title,
             'content': content,
             'type': doc_type,
-            'embedding': embedding
-        }).execute()
-        
+            'embedding': embedding,
+        }
+        if file_url:
+            row['file_url'] = file_url
+
+        response = self.supabase.table('documents').insert(row).execute()
         return response.data[0] if response.data else None
     
     def update(self, doc_id: int, updates: Dict) -> Optional[Dict]:

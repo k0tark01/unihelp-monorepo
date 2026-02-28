@@ -92,8 +92,11 @@ class AuthService:
     (easy to mock the client in unit tests).
     """
 
-    def __init__(self, supabase_client):
+    def __init__(self, supabase_client, admin_client=None):
         self._sb = supabase_client
+        # admin_client uses the service-role key and bypasses RLS.
+        # Falls back to the regular client if not provided.
+        self._sb_admin = admin_client or supabase_client
 
     # ── Register ─────────────────────────────────────────────────────
 
@@ -108,7 +111,11 @@ class AuthService:
         dto.validate()
 
         try:
-            # 1. Create Supabase Auth account (no email verification)
+            # 1. Create Supabase Auth account
+            # NOTE: pass email_redirect_to to control the confirmation link URL.
+            # If Supabase email confirmation is enabled (Dashboard → Auth → Settings),
+            # sign_up() creates an UNCONFIRMED user and sends the confirmation email.
+            # session will be None until the user clicks the link — that is expected.
             auth_resp = self._sb.auth.sign_up({
                 "email": dto.email.strip(),
                 "password": dto.password,
@@ -117,33 +124,42 @@ class AuthService:
                         "role": dto.role,
                         "full_name": dto.full_name,
                     },
-                    "email_redirect_to": None,  # Disable email confirmation
                 }
             })
             auth_user = auth_resp.user
             session = auth_resp.session
+
+            # Guard: Supabase may return user=None for duplicate unconfirmed e-mails.
+            if auth_user is None or not getattr(auth_user, "id", None):
+                raise DatabaseError(
+                    "Supabase did not return a user object. "
+                    "The e-mail address may already be registered."
+                )
+
             uid = str(auth_user.id)
 
-            # 2. Insert into users table
-            self._sb.table("users").insert({
+            # 2. Insert into users table (use admin client to bypass RLS).
+            # The trigger handle_new_auth_user() may have already inserted this
+            # row; upsert ensures idempotency either way.
+            self._sb_admin.table("users").upsert({
                 "id": uid,
                 "email": dto.email.strip(),
                 "full_name": dto.full_name or None,
                 "role": dto.role,
                 "is_active": True,
-            }).execute()
+            }, on_conflict="id").execute()
 
-            # 3. Insert matching profile
+            # 3. Insert matching profile (use admin client)
             role_enum = UserRole.from_str(dto.role)
             profile: StudentProfile | AdminProfile
 
             if role_enum == UserRole.STUDENT:
-                self._sb.table("student_profiles").insert({
+                self._sb_admin.table("student_profiles").upsert({
                     "user_id": uid,
                     "student_id": dto.student_id,
                     "department": dto.department,
                     "level": dto.level,
-                }).execute()
+                }, on_conflict="user_id").execute()
                 profile = StudentProfile(
                     user_id=uid,
                     student_id=dto.student_id,
@@ -151,10 +167,10 @@ class AuthService:
                     level=dto.level,
                 )
             else:
-                self._sb.table("admin_profiles").insert({
+                self._sb_admin.table("admin_profiles").upsert({
                     "user_id": uid,
                     "title": dto.title,
-                }).execute()
+                }, on_conflict="user_id").execute()
                 profile = AdminProfile(user_id=uid, title=dto.title)
 
             user = User(

@@ -7,9 +7,6 @@ from app.core.rag.embeddings import EmbeddingService
 from app.core.rag.chunker import ChunkConfig
 from app.services.document_service import DocumentService
 from app.services.query_service import QueryService
-from app.config import Config
-
-
 class Container:
     """
     Singleton dependency-injection container.
@@ -19,7 +16,7 @@ class Container:
 
     _instance: Optional['Container'] = None
 
-    def __init__(self, config: Config):
+    def __init__(self, config):
         self.config = config
         self._embedding_service = None
         self._rag_engine = None
@@ -27,7 +24,7 @@ class Container:
         self._query_service = None
 
     @classmethod
-    def get_instance(cls, config: Optional[Config] = None) -> 'Container':
+    def get_instance(cls, config=None) -> 'Container':
         if cls._instance is None:
             if config is None:
                 raise ValueError("Config required for first initialization")
@@ -49,7 +46,7 @@ class Container:
     def get_embedding_service(self) -> EmbeddingService:
         if self._embedding_service is None:
             self._embedding_service = EmbeddingService(
-                api_key=self.config.GEMINI_API_KEY,
+                api_key=self.config.get("GEMINI_API_KEY"),
                 model="models/gemini-embedding-001",
             )
         return self._embedding_service

@@ -23,7 +23,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Textarea } from "@/components/ui/textarea";
-import { chat } from "@/lib/api";
+import { ApiError, chat } from "@/lib/api";
 import { useAuth } from "@/lib/auth-context";
 import { useI18n } from "@/lib/i18n-context";
 import { ChatMessageItem, Language } from "@/lib/types";
@@ -139,6 +139,12 @@ export default function AssistantPage() {
       };
       setMessages((prev) => [...prev, assistantMessage]);
     } catch (caught) {
+      if (caught instanceof ApiError && caught.isAuthError) {
+        // Token is expired / invalid → redirect to login
+        toast.error(t("toast.sessionExpired") ?? "Session expired. Please log in again.");
+        router.push("/login");
+        return;
+      }
       const message = caught instanceof Error ? caught.message : t("toast.chatError");
       setError(message);
       toast.error(message);

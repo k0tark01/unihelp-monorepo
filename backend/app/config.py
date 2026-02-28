@@ -7,9 +7,12 @@ class Config:
     """Base configuration."""
     SECRET_KEY = os.getenv("SECRET_KEY", "dev-secret-key-change-in-production")
 
-    # Supabase (used only for pgvector RPC similarity search)
+    # Supabase
     SUPABASE_URL = os.getenv("SUPABASE_URL")
     SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+    # Service-role key for server-side writes that must bypass RLS.
+    # Get it from: Supabase Dashboard → Project Settings → API → service_role
+    SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 
     # Gemini AI
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")

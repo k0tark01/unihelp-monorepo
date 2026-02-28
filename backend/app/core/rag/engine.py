@@ -195,6 +195,7 @@ class RAGEngine:
                 "id": doc.id,
                 "title": doc.title,
                 "type": doc.doc_type,
+                "file_url": doc.file_url,
                 "text": doc.content[:500] + "..." if len(doc.content) > 500 else doc.content,
                 "similarity": round(doc.similarity, 3),
                 "rerank_score": round(doc.rerank_score, 3) if doc.rerank_score else None,
@@ -217,6 +218,7 @@ class RAGEngine:
         title: str,
         content: str,
         doc_type: Optional[str] = None,
+        file_url: Optional[str] = None,
     ) -> Dict:
         """Chunk, embed, and store a new document."""
         chunks = self.chunker.chunk_text(
@@ -229,12 +231,16 @@ class RAGEngine:
             embedding_text = f"{title}\n\n{content}"
             embedding = list(self.embedding_service.embed_text(embedding_text))
 
-            result = self.supabase.table("documents").insert({
+            row = {
                 "title": title,
                 "content": content,
                 "type": doc_type,
                 "embedding": embedding,
-            }).execute()
+            }
+            if file_url:
+                row["file_url"] = file_url
+
+            result = self.supabase.table("documents").insert(row).execute()
 
             return {
                 "success": True,

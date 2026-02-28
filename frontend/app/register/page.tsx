@@ -8,7 +8,7 @@ import Link from "next/link";
 import { Eye, EyeOff, GraduationCap, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 
-import { supabase } from "@/lib/supabase";
+import { register as apiRegister, ApiError } from "@/lib/api";
 import { registerSchema, type RegisterFormValues } from "@/lib/schemas";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -51,31 +51,27 @@ export default function RegisterPage() {
 
   async function onSubmit(values: RegisterFormValues) {
     setLoading(true);
+    try {
+      await apiRegister({
+        email: values.email,
+        password: values.password,
+        full_name: values.fullName,
+        role: "student",
+        student_id: values.studentId,
+        department: values.department,
+      });
 
-    const { error } = await supabase.auth.signUp({
-      email: values.email,
-      password: values.password,
-      options: {
-        data: {
-          full_name: values.fullName,
-          student_id: values.studentId,
-          department: values.department,
-        },
-      },
-    });
-
-    setLoading(false);
-
-    if (error) {
-      toast.error(error.message);
-      return;
+      toast.success(t("register.successMsg"), { duration: 6000 });
+      router.push("/login");
+    } catch (err) {
+      const message =
+        err instanceof ApiError || err instanceof Error
+          ? err.message
+          : t("register.errorGeneric");
+      toast.error(message);
+    } finally {
+      setLoading(false);
     }
-
-    toast.success(
-      t("register.successMsg"),
-      { duration: 6000 }
-    );
-    router.push("/login");
   }
 
   return (

@@ -23,9 +23,13 @@ create table if not exists documents (
     title      text        not null,
     content    text        not null,
     type       text,                          -- 'regulation', 'announcement', 'guide', 'faq'
+    file_url   text,                          -- public Supabase Storage URL of the original file
     embedding  vector(768),                   -- gemini-embedding-001 outputs 768 dims
     created_at timestamptz default now()
 );
+
+-- Add file_url to existing installations (safe to re-run)
+alter table documents add column if not exists file_url text;
 
 -- IVFFlat index for fast cosine similarity search
 create index if not exists documents_embedding_idx
@@ -59,6 +63,7 @@ returns table (
     title      text,
     content    text,
     type       text,
+    file_url   text,
     similarity float
 )
 language sql stable
@@ -68,6 +73,7 @@ as $$
         documents.title,
         documents.content,
         documents.type,
+        documents.file_url,
         1 - (documents.embedding <=> query_embedding) as similarity
     from documents
     where 1 - (documents.embedding <=> query_embedding) > match_threshold
@@ -170,6 +176,35 @@ create or replace trigger admin_profiles_updated_at
 create or replace trigger conversations_updated_at
     before update on conversations
     for each row execute procedure set_updated_at();
+
+-- =============================================
+-- Auto-populate users table from auth.users
+-- This trigger fires whenever a new user signs up via Supabase Auth,
+-- guaranteeing a matching row in public.users regardless of whether
+-- the backend insert succeeds.
+-- =============================================
+create or replace function handle_new_auth_user()
+returns trigger language plpgsql security definer set search_path = public as $$
+begin
+    insert into public.users (id, email, full_name, role, is_active)
+    values (
+        new.id,
+        new.email,
+        coalesce(new.raw_user_meta_data->>'full_name', ''),
+        coalesce(
+            (new.raw_user_meta_data->>'role')::user_role_enum,
+            'student'
+        ),
+        true
+    )
+    on conflict (id) do nothing;   -- backend may have already inserted; safe to skip
+    return new;
+end $$;
+
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created
+    after insert on auth.users
+    for each row execute procedure handle_new_auth_user();
 
 -- =============================================
 -- Row Level Security (RLS)
