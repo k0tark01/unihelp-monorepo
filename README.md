@@ -2,7 +2,11 @@
 
 Monorepo containing the full-stack UniHelp application.
 
-```
+``
+
+Uploading cap.mp4…
+
+`
 unihelp-monorepo/
 ├── frontend/   # Next.js 14 (TypeScript, Tailwind, Supabase auth)
 └── backend/    # Flask API (Gemini RAG, Supabase)
