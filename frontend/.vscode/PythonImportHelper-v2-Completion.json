@@ -1,0 +1,1022 @@
+[
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "Vector",
+        "importPath": "pgvector.sqlalchemy",
+        "description": "pgvector.sqlalchemy",
+        "isExtraImport": true,
+        "detail": "pgvector.sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "answer_question",
+        "importPath": "app.utils.rag",
+        "description": "app.utils.rag",
+        "isExtraImport": true,
+        "detail": "app.utils.rag",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "app.utils.auth_middleware",
+        "description": "app.utils.auth_middleware",
+        "isExtraImport": true,
+        "detail": "app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "app.utils.auth_middleware",
+        "description": "app.utils.auth_middleware",
+        "isExtraImport": true,
+        "detail": "app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_admin",
+        "importPath": "app.utils.auth_middleware",
+        "description": "app.utils.auth_middleware",
+        "isExtraImport": true,
+        "detail": "app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "app.utils.auth_middleware",
+        "description": "app.utils.auth_middleware",
+        "isExtraImport": true,
+        "detail": "app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "app.utils.auth_middleware",
+        "description": "app.utils.auth_middleware",
+        "isExtraImport": true,
+        "detail": "app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_admin",
+        "importPath": "app.utils.auth_middleware",
+        "description": "app.utils.auth_middleware",
+        "isExtraImport": true,
+        "detail": "app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.supabase_client",
+        "description": "app.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.supabase_client",
+        "description": "app.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.supabase_client",
+        "description": "app.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.supabase_client",
+        "description": "app.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.supabase_client",
+        "description": "app.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding",
+        "importPath": "app.utils.gemini_client",
+        "description": "app.utils.gemini_client",
+        "isExtraImport": true,
+        "detail": "app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "importPath": "app.utils.gemini_client",
+        "description": "app.utils.gemini_client",
+        "isExtraImport": true,
+        "detail": "app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_embedding",
+        "importPath": "app.utils.gemini_client",
+        "description": "app.utils.gemini_client",
+        "isExtraImport": true,
+        "detail": "app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "importPath": "app.utils.gemini_client",
+        "description": "app.utils.gemini_client",
+        "isExtraImport": true,
+        "detail": "app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "generate_email",
+        "importPath": "app.utils.email_generator",
+        "description": "app.utils.email_generator",
+        "isExtraImport": true,
+        "detail": "app.utils.email_generator",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_TYPE_DESCRIPTIONS",
+        "importPath": "app.utils.email_generator",
+        "description": "app.utils.email_generator",
+        "isExtraImport": true,
+        "detail": "app.utils.email_generator",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "genai",
+        "importPath": "google",
+        "description": "google",
+        "isExtraImport": true,
+        "detail": "google",
+        "documentation": {}
+    },
+    {
+        "label": "genai",
+        "importPath": "google",
+        "description": "google",
+        "isExtraImport": true,
+        "detail": "google",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "google.genai",
+        "description": "google.genai",
+        "isExtraImport": true,
+        "detail": "google.genai",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "google.genai",
+        "description": "google.genai",
+        "isExtraImport": true,
+        "detail": "google.genai",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.error",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "backend.app.models.document",
+        "description": "backend.app.models.document",
+        "peekOfCode": "class Document(db.Model):\n    __tablename__ = \"documents\"\n    id         = db.Column(db.BigInteger, primary_key=True, autoincrement=True)\n    title      = db.Column(db.Text, nullable=False)\n    content    = db.Column(db.Text, nullable=False)\n    type       = db.Column(db.Text, nullable=True)\n    embedding  = db.Column(Vector(768), nullable=True)\n    created_at = db.Column(db.DateTime(timezone=True), server_default=func.now())\n    def to_dict(self, include_embedding=False):\n        data = {",
+        "detail": "backend.app.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "kind": 6,
+        "importPath": "backend.app.models.email",
+        "description": "backend.app.models.email",
+        "peekOfCode": "class Email(db.Model):\n    __tablename__ = \"emails\"\n    id         = db.Column(db.BigInteger, primary_key=True, autoincrement=True)\n    subject    = db.Column(db.Text, nullable=False)\n    body       = db.Column(db.Text, nullable=False)\n    recipient  = db.Column(db.Text, nullable=True)\n    email_type = db.Column(db.Text, nullable=True)\n    created_at = db.Column(db.DateTime(timezone=True), server_default=func.now())\n    def to_dict(self):\n        return {",
+        "detail": "backend.app.models.email",
+        "documentation": {}
+    },
+    {
+        "label": "query_documents",
+        "kind": 2,
+        "importPath": "backend.app.routes.ai",
+        "description": "backend.app.routes.ai",
+        "peekOfCode": "def query_documents():\n    \"\"\"\n    RAG endpoint — embeds the student's question, retrieves the most\n    relevant university documents from Supabase (pgvector cosine search),\n    and asks Gemini to answer using that context.\n    Body: { \"question\": \"...\" }\n    Returns: { \"question\", \"answer\", \"sources\" }\n    \"\"\"\n    data = request.get_json()\n    question = data.get(\"question\", \"\").strip()",
+        "detail": "backend.app.routes.ai",
+        "documentation": {}
+    },
+    {
+        "label": "ai_bp",
+        "kind": 5,
+        "importPath": "backend.app.routes.ai",
+        "description": "backend.app.routes.ai",
+        "peekOfCode": "ai_bp = Blueprint(\"ai\", __name__)\n@ai_bp.route(\"/query\", methods=[\"POST\"])\n@require_auth\ndef query_documents():\n    \"\"\"\n    RAG endpoint — embeds the student's question, retrieves the most\n    relevant university documents from Supabase (pgvector cosine search),\n    and asks Gemini to answer using that context.\n    Body: { \"question\": \"...\" }\n    Returns: { \"question\", \"answer\", \"sources\" }",
+        "detail": "backend.app.routes.ai",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "def register():\n    \"\"\"\n    Create a new account and populate users + profile tables.\n    Body (student):\n    {\n        \"email\":      \"student@uni.edu\",\n        \"password\":   \"secret123\",\n        \"full_name\":  \"Mohamed Ali\",\n        \"role\":       \"student\",\n        \"student_id\": \"21INF042\",    -- required for students",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "def login():\n    \"\"\"\n    Sign in with email + password.\n    Returns access_token (JWT) + full user + profile.\n    Body: { \"email\": \"...\", \"password\": \"...\" }\n    \"\"\"\n    data     = request.get_json() or {}\n    email    = (data.get(\"email\")    or \"\").strip()\n    password = (data.get(\"password\") or \"\").strip()\n    if not email or not password:",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "def logout():\n    \"\"\"\n    Sign out the current user (requires Bearer token).\n    \"\"\"\n    token = _extract_token()\n    if not token:\n        return jsonify({\"error\": \"Authorization header required\"}), 401\n    try:\n        sb = get_supabase()\n        sb.auth.sign_out()",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "me",
+        "kind": 2,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "def me():\n    \"\"\"\n    Return the authenticated user's full profile.\n    Requires:  Authorization: Bearer <access_token>\n    \"\"\"\n    token = _extract_token()\n    if not token:\n        return jsonify({\"error\": \"Authorization header required\"}), 401\n    try:\n        sb = get_supabase()",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "refresh",
+        "kind": 2,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "def refresh():\n    \"\"\"\n    Get a new access_token using a refresh_token.\n    Body: { \"refresh_token\": \"...\" }\n    \"\"\"\n    data          = request.get_json() or {}\n    refresh_token = data.get(\"refresh_token\", \"\").strip()\n    if not refresh_token:\n        return jsonify({\"error\": \"refresh_token is required\"}), 400\n    try:",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth_bp",
+        "kind": 5,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "auth_bp = Blueprint(\"auth\", __name__)\nVALID_ROLES = (\"student\", \"admin\", \"super_admin\")\ndef _extract_token() -> str | None:\n    header = request.headers.get(\"Authorization\", \"\")\n    return header[7:] if header.startswith(\"Bearer \") else None\ndef _fetch_profile(sb, user_id: str, role: str) -> dict:\n    \"\"\"Fetch the student or admin profile row for a user.\"\"\"\n    if role == \"student\":\n        r = sb.table(\"student_profiles\").select(\"*\").eq(\"user_id\", user_id).maybe_single().execute()\n    else:",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "VALID_ROLES",
+        "kind": 5,
+        "importPath": "backend.app.routes.auth",
+        "description": "backend.app.routes.auth",
+        "peekOfCode": "VALID_ROLES = (\"student\", \"admin\", \"super_admin\")\ndef _extract_token() -> str | None:\n    header = request.headers.get(\"Authorization\", \"\")\n    return header[7:] if header.startswith(\"Bearer \") else None\ndef _fetch_profile(sb, user_id: str, role: str) -> dict:\n    \"\"\"Fetch the student or admin profile row for a user.\"\"\"\n    if role == \"student\":\n        r = sb.table(\"student_profiles\").select(\"*\").eq(\"user_id\", user_id).maybe_single().execute()\n    else:\n        r = sb.table(\"admin_profiles\").select(\"*\").eq(\"user_id\", user_id).maybe_single().execute()",
+        "detail": "backend.app.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_documents",
+        "kind": 2,
+        "importPath": "backend.app.routes.documents",
+        "description": "backend.app.routes.documents",
+        "peekOfCode": "def get_all_documents():\n    \"\"\"Fetch all documents (id, title, type, created_at).\"\"\"\n    try:\n        sb = get_supabase()\n        response = sb.table(\"documents\").select(\"id, title, type, created_at\").execute()\n        return jsonify(response.data), 200\n    except Exception as e:\n        return jsonify({\"error\": str(e)}), 500\n@documents_bp.route(\"/<int:doc_id>\", methods=[\"GET\"])\n@require_auth",
+        "detail": "backend.app.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "get_document",
+        "kind": 2,
+        "importPath": "backend.app.routes.documents",
+        "description": "backend.app.routes.documents",
+        "peekOfCode": "def get_document(doc_id):\n    \"\"\"Fetch a single document by ID.\"\"\"\n    try:\n        sb = get_supabase()\n        response = (\n            sb.table(\"documents\")\n            .select(\"id, title, content, type, created_at\")\n            .eq(\"id\", doc_id)\n            .single()\n            .execute()",
+        "detail": "backend.app.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "add_document",
+        "kind": 2,
+        "importPath": "backend.app.routes.documents",
+        "description": "backend.app.routes.documents",
+        "peekOfCode": "def add_document():\n    \"\"\"\n    Add a new document and automatically generate + store its Gemini embedding.\n    Body: { \"title\": str, \"content\": str, \"type\": str (optional) }\n    \"\"\"\n    data     = request.get_json()\n    title    = (data.get(\"title\") or \"\").strip()\n    content  = (data.get(\"content\") or \"\").strip()\n    doc_type = data.get(\"type\")\n    if not title or not content:",
+        "detail": "backend.app.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "update_document",
+        "kind": 2,
+        "importPath": "backend.app.routes.documents",
+        "description": "backend.app.routes.documents",
+        "peekOfCode": "def update_document(doc_id):\n    \"\"\"Update document fields. Re-generates embedding if title or content changed.\"\"\"\n    data = request.get_json()\n    try:\n        sb = get_supabase()\n        if \"content\" in data or \"title\" in data:\n            existing = (\n                sb.table(\"documents\")\n                .select(\"title, content\")\n                .eq(\"id\", doc_id)",
+        "detail": "backend.app.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "delete_document",
+        "kind": 2,
+        "importPath": "backend.app.routes.documents",
+        "description": "backend.app.routes.documents",
+        "peekOfCode": "def delete_document(doc_id):\n    \"\"\"Delete a document by ID.\"\"\"\n    try:\n        sb = get_supabase()\n        sb.table(\"documents\").delete().eq(\"id\", doc_id).execute()\n        return jsonify({\"message\": f\"Document {doc_id} deleted\"}), 200\n    except Exception as e:\n        return jsonify({\"error\": str(e)}), 500",
+        "detail": "backend.app.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "documents_bp",
+        "kind": 5,
+        "importPath": "backend.app.routes.documents",
+        "description": "backend.app.routes.documents",
+        "peekOfCode": "documents_bp = Blueprint(\"documents\", __name__)\n@documents_bp.route(\"/\", methods=[\"GET\"])\n@require_auth\ndef get_all_documents():\n    \"\"\"Fetch all documents (id, title, type, created_at).\"\"\"\n    try:\n        sb = get_supabase()\n        response = sb.table(\"documents\").select(\"id, title, type, created_at\").execute()\n        return jsonify(response.data), 200\n    except Exception as e:",
+        "detail": "backend.app.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_emails",
+        "kind": 2,
+        "importPath": "backend.app.routes.emails",
+        "description": "backend.app.routes.emails",
+        "peekOfCode": "def get_all_emails():\n    \"\"\"Fetch all saved emails, newest first.\"\"\"\n    try:\n        sb = get_supabase()\n        response = sb.table(\"emails\").select(\"*\").execute()\n        return jsonify(response.data), 200\n    except Exception as e:\n        return jsonify({\"error\": str(e)}), 500\n@emails_bp.route(\"/types\", methods=[\"GET\"])\n@require_auth",
+        "detail": "backend.app.routes.emails",
+        "documentation": {}
+    },
+    {
+        "label": "get_email_types",
+        "kind": 2,
+        "importPath": "backend.app.routes.emails",
+        "description": "backend.app.routes.emails",
+        "peekOfCode": "def get_email_types():\n    \"\"\"Return supported email types and their descriptions.\"\"\"\n    return jsonify(EMAIL_TYPE_DESCRIPTIONS), 200\n@emails_bp.route(\"/generate\", methods=[\"POST\"])\n@require_auth\ndef generate_and_save_email():\n    \"\"\"\n    Ask Gemini to write a formal administrative email and persist it.\n    Body:\n    {",
+        "detail": "backend.app.routes.emails",
+        "documentation": {}
+    },
+    {
+        "label": "generate_and_save_email",
+        "kind": 2,
+        "importPath": "backend.app.routes.emails",
+        "description": "backend.app.routes.emails",
+        "peekOfCode": "def generate_and_save_email():\n    \"\"\"\n    Ask Gemini to write a formal administrative email and persist it.\n    Body:\n    {\n        \"email_type\":    \"attestation\" | \"reclamation\" | \"stage\" | \"absence\" | \"rattrapage\" | \"custom\",\n        \"student_name\": \"Mohamed Ali\",\n        \"student_id\":   \"21INF042\",\n        \"details\":      \"optional free-text context\",\n        \"recipient\":    \"Monsieur le Directeur\"  (optional),",
+        "detail": "backend.app.routes.emails",
+        "documentation": {}
+    },
+    {
+        "label": "save_email",
+        "kind": 2,
+        "importPath": "backend.app.routes.emails",
+        "description": "backend.app.routes.emails",
+        "peekOfCode": "def save_email():\n    \"\"\"Manually save an email (subject + body provided by caller).\"\"\"\n    data      = request.get_json()\n    subject   = data.get(\"subject\")\n    body      = data.get(\"body\")\n    recipient = data.get(\"recipient\")\n    if not subject or not body:\n        return jsonify({\"error\": \"subject and body are required\"}), 400\n    try:\n        sb = get_supabase()",
+        "detail": "backend.app.routes.emails",
+        "documentation": {}
+    },
+    {
+        "label": "delete_email",
+        "kind": 2,
+        "importPath": "backend.app.routes.emails",
+        "description": "backend.app.routes.emails",
+        "peekOfCode": "def delete_email(email_id):\n    \"\"\"Delete a saved email by ID.\"\"\"\n    try:\n        sb = get_supabase()\n        sb.table(\"emails\").delete().eq(\"id\", email_id).execute()\n        return jsonify({\"message\": f\"Email {email_id} deleted\"}), 200\n    except Exception as e:\n        return jsonify({\"error\": str(e)}), 500",
+        "detail": "backend.app.routes.emails",
+        "documentation": {}
+    },
+    {
+        "label": "emails_bp",
+        "kind": 5,
+        "importPath": "backend.app.routes.emails",
+        "description": "backend.app.routes.emails",
+        "peekOfCode": "emails_bp = Blueprint(\"emails\", __name__)\n@emails_bp.route(\"/\", methods=[\"GET\"])\n@require_auth\ndef get_all_emails():\n    \"\"\"Fetch all saved emails, newest first.\"\"\"\n    try:\n        sb = get_supabase()\n        response = sb.table(\"emails\").select(\"*\").execute()\n        return jsonify(response.data), 200\n    except Exception as e:",
+        "detail": "backend.app.routes.emails",
+        "documentation": {}
+    },
+    {
+        "label": "my_view",
+        "kind": 2,
+        "importPath": "backend.app.utils.auth_middleware",
+        "description": "backend.app.utils.auth_middleware",
+        "peekOfCode": "def my_view():\n    user = g.current_user   # supabase User object\n    role = g.current_role   # \"student\" or \"admin\"\n# Admin only\n@require_admin\ndef admin_view():\n    ...\n\"\"\"\nfrom functools import wraps\nfrom flask import request, jsonify, g",
+        "detail": "backend.app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "admin_view",
+        "kind": 2,
+        "importPath": "backend.app.utils.auth_middleware",
+        "description": "backend.app.utils.auth_middleware",
+        "peekOfCode": "def admin_view():\n    ...\n\"\"\"\nfrom functools import wraps\nfrom flask import request, jsonify, g\nfrom app.supabase_client import get_supabase\ndef _extract_token() -> str | None:\n    header = request.headers.get(\"Authorization\", \"\")\n    return header[7:] if header.startswith(\"Bearer \") else None\ndef _validate_token(token: str) -> tuple:",
+        "detail": "backend.app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "kind": 2,
+        "importPath": "backend.app.utils.auth_middleware",
+        "description": "backend.app.utils.auth_middleware",
+        "peekOfCode": "def require_auth(f):\n    \"\"\"\n    Decorator: require any authenticated user (student, admin, or super_admin).\n    Sets on Flask's g:\n        g.current_user  – Supabase auth User object\n        g.current_role  – role string from users table\n        g.current_uid   – user UUID string\n    \"\"\"\n    @wraps(f)\n    def decorated(*args, **kwargs):",
+        "detail": "backend.app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "require_admin",
+        "kind": 2,
+        "importPath": "backend.app.utils.auth_middleware",
+        "description": "backend.app.utils.auth_middleware",
+        "peekOfCode": "def require_admin(f):\n    \"\"\"\n    Decorator: require role == 'admin' or 'super_admin'.\n    Returns 401 if not authenticated, 403 if authenticated but not admin.\n    \"\"\"\n    @wraps(f)\n    def decorated(*args, **kwargs):\n        token = _extract_token()\n        if not token:\n            return jsonify({",
+        "detail": "backend.app.utils.auth_middleware",
+        "documentation": {}
+    },
+    {
+        "label": "generate_email",
+        "kind": 2,
+        "importPath": "backend.app.utils.email_generator",
+        "description": "backend.app.utils.email_generator",
+        "peekOfCode": "def generate_email(\n    email_type: str,\n    student_name: str,\n    student_id: str,\n    details: str = \"\",\n    recipient: str = \"Monsieur/Madame le Directeur\",\n    university: str = \"Institut International de Technologie / NAU\",\n) -> dict:\n    \"\"\"\n    Generate a formal administrative email using Gemini.",
+        "detail": "backend.app.utils.email_generator",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_TYPE_DESCRIPTIONS",
+        "kind": 5,
+        "importPath": "backend.app.utils.email_generator",
+        "description": "backend.app.utils.email_generator",
+        "peekOfCode": "EMAIL_TYPE_DESCRIPTIONS = {\n    \"attestation\":  \"demande d'attestation de scolarité / d'inscription\",\n    \"reclamation\":  \"réclamation concernant une note ou une décision administrative\",\n    \"stage\":        \"demande de convention de stage / lettre de motivation pour un stage\",\n    \"absence\":      \"justification d'absence et demande de régularisation\",\n    \"rattrapage\":   \"demande d'examen de rattrapage\",\n    \"custom\":       \"demande administrative personnalisée\",\n}\nSYSTEM_INSTRUCTION = (\n    \"You are an expert at writing formal French academic administrative emails. \"",
+        "detail": "backend.app.utils.email_generator",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_INSTRUCTION",
+        "kind": 5,
+        "importPath": "backend.app.utils.email_generator",
+        "description": "backend.app.utils.email_generator",
+        "peekOfCode": "SYSTEM_INSTRUCTION = (\n    \"You are an expert at writing formal French academic administrative emails. \"\n    \"Write polite, professional, and concise emails following French administrative conventions. \"\n    \"Always include: Objet (subject line), greeting, body paragraphs, closing formula, and signature placeholder. \"\n    \"If the user writes in Arabic or English, still write the email in formal French \"\n    \"but add a brief translation at the end in the user's language.\"\n)\ndef generate_email(\n    email_type: str,\n    student_name: str,",
+        "detail": "backend.app.utils.email_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding",
+        "kind": 2,
+        "importPath": "backend.app.utils.gemini_client",
+        "description": "backend.app.utils.gemini_client",
+        "peekOfCode": "def get_embedding(text: str) -> list[float]:\n    \"\"\"\n    Generate a 768-dimensional embedding for a document\n    using gemini-embedding-001 with output_dimensionality=768.\n    \"\"\"\n    client = _get_embedding_client()\n    result = client.models.embed_content(\n        model=\"models/gemini-embedding-001\",\n        contents=text,\n        config=types.EmbedContentConfig(",
+        "detail": "backend.app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_query_embedding",
+        "kind": 2,
+        "importPath": "backend.app.utils.gemini_client",
+        "description": "backend.app.utils.gemini_client",
+        "peekOfCode": "def get_query_embedding(text: str) -> list[float]:\n    \"\"\"\n    Generate a 768-dimensional embedding optimized for query retrieval.\n    Use this for the student's question, not for stored documents.\n    \"\"\"\n    client = _get_embedding_client()\n    result = client.models.embed_content(\n        model=\"models/gemini-embedding-001\",\n        contents=text,\n        config=types.EmbedContentConfig(",
+        "detail": "backend.app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "backend.app.utils.gemini_client",
+        "description": "backend.app.utils.gemini_client",
+        "peekOfCode": "def chat(prompt: str, system_instruction: str = None) -> str:\n    \"\"\"\n    Send a prompt to Gemini 2.0 Flash and return the text response.\n    \"\"\"\n    client = _get_client()\n    sys_instr = system_instruction or (\n        \"You are UniHelp, a helpful university assistant. \"\n        \"Answer student questions clearly and concisely in the same language the student uses. \"\n        \"If you cannot find the answer in the provided context, say so honestly.\"\n    )",
+        "detail": "backend.app.utils.gemini_client",
+        "documentation": {}
+    },
+    {
+        "label": "success_response",
+        "kind": 2,
+        "importPath": "backend.app.utils.helpers",
+        "description": "backend.app.utils.helpers",
+        "peekOfCode": "def success_response(data, status_code=200):\n    \"\"\"Standardized success JSON response.\"\"\"\n    return {\"data\": data, \"error\": None}, status_code\ndef error_response(message, status_code=400):\n    \"\"\"Standardized error JSON response.\"\"\"\n    return {\"data\": None, \"error\": message}, status_code\ndef paginate(query_list, page=1, per_page=10):\n    \"\"\"Simple in-memory pagination helper.\"\"\"\n    start = (page - 1) * per_page\n    end   = start + per_page",
+        "detail": "backend.app.utils.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "error_response",
+        "kind": 2,
+        "importPath": "backend.app.utils.helpers",
+        "description": "backend.app.utils.helpers",
+        "peekOfCode": "def error_response(message, status_code=400):\n    \"\"\"Standardized error JSON response.\"\"\"\n    return {\"data\": None, \"error\": message}, status_code\ndef paginate(query_list, page=1, per_page=10):\n    \"\"\"Simple in-memory pagination helper.\"\"\"\n    start = (page - 1) * per_page\n    end   = start + per_page\n    return {\n        \"page\":       page,\n        \"per_page\":   per_page,",
+        "detail": "backend.app.utils.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "paginate",
+        "kind": 2,
+        "importPath": "backend.app.utils.helpers",
+        "description": "backend.app.utils.helpers",
+        "peekOfCode": "def paginate(query_list, page=1, per_page=10):\n    \"\"\"Simple in-memory pagination helper.\"\"\"\n    start = (page - 1) * per_page\n    end   = start + per_page\n    return {\n        \"page\":       page,\n        \"per_page\":   per_page,\n        \"total\":      len(query_list),\n        \"results\":    query_list[start:end],\n    }",
+        "detail": "backend.app.utils.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_context",
+        "kind": 2,
+        "importPath": "backend.app.utils.rag",
+        "description": "backend.app.utils.rag",
+        "peekOfCode": "def retrieve_context(question: str, match_count: int = 5, threshold: float = 0.5) -> list[dict]:\n    \"\"\"\n    Embed the question and find the most relevant document chunks\n    via Supabase pgvector cosine similarity search (RPC).\n    \"\"\"\n    sb = get_supabase()\n    embedding = get_query_embedding(question)\n    response = sb.rpc(\"match_documents\", {\n        \"query_embedding\": embedding,\n        \"match_threshold\": threshold,",
+        "detail": "backend.app.utils.rag",
+        "documentation": {}
+    },
+    {
+        "label": "answer_question",
+        "kind": 2,
+        "importPath": "backend.app.utils.rag",
+        "description": "backend.app.utils.rag",
+        "peekOfCode": "def answer_question(question: str) -> dict:\n    \"\"\"\n    Full RAG pipeline: retrieve relevant docs → build context → ask Gemini.\n    Returns:\n        {\n            \"question\":  str,\n            \"answer\":    str,\n            \"sources\":   [{\"id\", \"title\", \"type\", \"similarity\"}, ...]\n        }\n    \"\"\"",
+        "detail": "backend.app.utils.rag",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "class Config:\n    \"\"\"Base configuration.\"\"\"\n    SECRET_KEY = os.getenv(\"SECRET_KEY\", \"dev-secret-key-change-in-production\")\n    # Supabase (used only for pgvector RPC similarity search)\n    SUPABASE_URL = os.getenv(\"SUPABASE_URL\")\n    SUPABASE_KEY = os.getenv(\"SUPABASE_KEY\")\n    # Gemini AI\n    GEMINI_API_KEY = os.getenv(\"GEMINI_API_KEY\")\n    # SQLAlchemy — direct PostgreSQL connection to Supabase\n    SQLALCHEMY_DATABASE_URI = os.getenv(",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "DevelopmentConfig",
+        "kind": 6,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "class DevelopmentConfig(Config):\n    DEBUG = True\nclass ProductionConfig(Config):\n    DEBUG = False\nconfig = {\n    \"development\": DevelopmentConfig,\n    \"production\":  ProductionConfig,\n    \"default\":     DevelopmentConfig,\n}",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ProductionConfig",
+        "kind": 6,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "class ProductionConfig(Config):\n    DEBUG = False\nconfig = {\n    \"development\": DevelopmentConfig,\n    \"production\":  ProductionConfig,\n    \"default\":     DevelopmentConfig,\n}",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "config = {\n    \"development\": DevelopmentConfig,\n    \"production\":  ProductionConfig,\n    \"default\":     DevelopmentConfig,\n}",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.app.extensions",
+        "description": "backend.app.extensions",
+        "peekOfCode": "db = SQLAlchemy()",
+        "detail": "backend.app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "init_supabase",
+        "kind": 2,
+        "importPath": "backend.app.supabase_client",
+        "description": "backend.app.supabase_client",
+        "peekOfCode": "def init_supabase(app):\n    \"\"\"Initialize the Supabase client using Flask app config.\"\"\"\n    global supabase\n    url = app.config.get(\"SUPABASE_URL\")\n    key = app.config.get(\"SUPABASE_KEY\")\n    if not url or not key:\n        raise ValueError(\n            \"SUPABASE_URL and SUPABASE_KEY must be set in your .env file.\"\n        )\n    supabase = create_client(url, key)",
+        "detail": "backend.app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "kind": 2,
+        "importPath": "backend.app.supabase_client",
+        "description": "backend.app.supabase_client",
+        "peekOfCode": "def get_supabase() -> Client:\n    \"\"\"Return the initialized Supabase client.\"\"\"\n    if supabase is None:\n        raise RuntimeError(\"Supabase client has not been initialized.\")\n    return supabase",
+        "detail": "backend.app.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "embed_text",
+        "kind": 2,
+        "importPath": "backend.ingest_documents",
+        "description": "backend.ingest_documents",
+        "peekOfCode": "def embed_text(text: str) -> list[float]:\n    result = gemini.models.embed_content(\n        model=\"models/gemini-embedding-001\",\n        contents=text,\n        config=types.EmbedContentConfig(\n            task_type=\"RETRIEVAL_DOCUMENT\",\n            output_dimensionality=768,\n        ),\n    )\n    return result.embeddings[0].values",
+        "detail": "backend.ingest_documents",
+        "documentation": {}
+    },
+    {
+        "label": "ingest",
+        "kind": 2,
+        "importPath": "backend.ingest_documents",
+        "description": "backend.ingest_documents",
+        "peekOfCode": "def ingest():\n    print(f\"Starting ingestion of {len(DOCUMENTS)} documents...\\n\")\n    for i, doc in enumerate(DOCUMENTS, 1):\n        print(f\"[{i}/{len(DOCUMENTS)}] Embedding: {doc['title']}\")\n        embedding = embed_text(f\"{doc['title']}\\n\\n{doc['content']}\")\n        sb.table(\"documents\").insert({\n            \"title\":     doc[\"title\"],\n            \"content\":   doc[\"content\"],\n            \"type\":      doc[\"type\"],\n            \"embedding\": embedding,",
+        "detail": "backend.ingest_documents",
+        "documentation": {}
+    },
+    {
+        "label": "GEMINI_API_KEY",
+        "kind": 5,
+        "importPath": "backend.ingest_documents",
+        "description": "backend.ingest_documents",
+        "peekOfCode": "GEMINI_API_KEY = os.environ[\"GEMINI_API_KEY\"]\ngemini = genai.Client(api_key=GEMINI_API_KEY)\nsb     = create_client(SUPABASE_URL, SUPABASE_KEY)\n# ── Sample University Documents ───────────────────────────────────────────────\n# Replace / extend with real content from your university's official documents.\nDOCUMENTS = [\n    {\n        \"title\": \"Règlement intérieur – Absences\",\n        \"type\":  \"regulation\",\n        \"content\": (",
+        "detail": "backend.ingest_documents",
+        "documentation": {}
+    },
+    {
+        "label": "gemini",
+        "kind": 5,
+        "importPath": "backend.ingest_documents",
+        "description": "backend.ingest_documents",
+        "peekOfCode": "gemini = genai.Client(api_key=GEMINI_API_KEY)\nsb     = create_client(SUPABASE_URL, SUPABASE_KEY)\n# ── Sample University Documents ───────────────────────────────────────────────\n# Replace / extend with real content from your university's official documents.\nDOCUMENTS = [\n    {\n        \"title\": \"Règlement intérieur – Absences\",\n        \"type\":  \"regulation\",\n        \"content\": (\n            \"Tout étudiant est tenu d'assister à la totalité des cours, TD et TP. \"",
+        "detail": "backend.ingest_documents",
+        "documentation": {}
+    },
+    {
+        "label": "DOCUMENTS",
+        "kind": 5,
+        "importPath": "backend.ingest_documents",
+        "description": "backend.ingest_documents",
+        "peekOfCode": "DOCUMENTS = [\n    {\n        \"title\": \"Règlement intérieur – Absences\",\n        \"type\":  \"regulation\",\n        \"content\": (\n            \"Tout étudiant est tenu d'assister à la totalité des cours, TD et TP. \"\n            \"Au-delà de 20% d'absences injustifiées dans une matière, l'étudiant est \"\n            \"déclaré défaillant et ne peut pas passer l'examen final de cette matière. \"\n            \"Toute absence doit être justifiée dans les 48h auprès du secrétariat \"\n            \"avec un justificatif officiel (certificat médical, convocation, etc.).\"",
+        "detail": "backend.ingest_documents",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.run",
+        "description": "backend.run",
+        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "detail": "backend.run",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "kind": 2,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "def get(path):\n    with urllib.request.urlopen(BASE + path) as r:\n        return json.loads(r.read())\ndef post(path, data):\n    payload = json.dumps(data).encode()\n    req = urllib.request.Request(\n        BASE + path, data=payload,\n        headers={\"Content-Type\": \"application/json\"},\n        method=\"POST\",\n    )",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "kind": 2,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "def post(path, data):\n    payload = json.dumps(data).encode()\n    req = urllib.request.Request(\n        BASE + path, data=payload,\n        headers={\"Content-Type\": \"application/json\"},\n        method=\"POST\",\n    )\n    with urllib.request.urlopen(req) as r:\n        return json.loads(r.read())\ndef sep(title):",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "sep",
+        "kind": 2,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "def sep(title):\n    print(f\"\\n{'='*55}\")\n    print(f\"  {title}\")\n    print(\"=\" * 55)\n# ── 1. Health check ──────────────────────────────────────\nsep(\"1. Health check\")\nr = get(\"/\")\nprint(f\"  status: {r.get('status')}\")\nassert \"running\" in r.get(\"status\", \"\"), \"FAILED\"\nprint(\"  ✓ PASS\")",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "BASE",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "BASE = \"http://127.0.0.1:5000\"\ndef get(path):\n    with urllib.request.urlopen(BASE + path) as r:\n        return json.loads(r.read())\ndef post(path, data):\n    payload = json.dumps(data).encode()\n    req = urllib.request.Request(\n        BASE + path, data=payload,\n        headers={\"Content-Type\": \"application/json\"},\n        method=\"POST\",",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "r = get(\"/\")\nprint(f\"  status: {r.get('status')}\")\nassert \"running\" in r.get(\"status\", \"\"), \"FAILED\"\nprint(\"  ✓ PASS\")\n# ── 2. List documents ────────────────────────────────────\nsep(\"2. List documents (GET /api/documents/)\")\ndocs = get(\"/api/documents/\")\nprint(f\"  Total documents: {len(docs)}\")\nfor d in docs:\n    print(f\"    [{d['id']:>2}] {d['title'][:50]}  ({d['type']})\")",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "docs",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "docs = get(\"/api/documents/\")\nprint(f\"  Total documents: {len(docs)}\")\nfor d in docs:\n    print(f\"    [{d['id']:>2}] {d['title'][:50]}  ({d['type']})\")\nassert len(docs) > 0, \"FAILED — no documents\"\nprint(\"  ✓ PASS\")\n# ── 3. Get single document ───────────────────────────────\nsep(\"3. Get single document (GET /api/documents/1)\")\ndoc = get(f\"/api/documents/{docs[0]['id']}\")\nprint(f\"  id:    {doc['id']}\")",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "doc",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "doc = get(f\"/api/documents/{docs[0]['id']}\")\nprint(f\"  id:    {doc['id']}\")\nprint(f\"  title: {doc['title']}\")\nprint(f\"  type:  {doc['type']}\")\nprint(f\"  content preview: {doc['content'][:80]}...\")\nprint(\"  ✓ PASS\")\n# ── 4. RAG query (French) ────────────────────────────────\nsep(\"4. RAG AI query — French\")\nr = post(\"/api/ai/query\", {\"question\": \"Combien d'absences sont autorisées avant d'être déclaré défaillant ?\"})\nprint(f\"  Question: {r['question']}\")",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "r = post(\"/api/ai/query\", {\"question\": \"Combien d'absences sont autorisées avant d'être déclaré défaillant ?\"})\nprint(f\"  Question: {r['question']}\")\nprint(f\"  Answer:\\n    {r['answer'][:300]}\")\nprint(f\"  Sources ({len(r['sources'])}):\", [s['title'] for s in r['sources']])\nassert r.get(\"answer\"), \"FAILED — empty answer\"\nprint(\"  ✓ PASS\")\n# ── 5. RAG query (English) ───────────────────────────────\nsep(\"5. RAG AI query — English\")\nr = post(\"/api/ai/query\", {\"question\": \"How can I request an internship convention?\"})\nprint(f\"  Answer preview: {r['answer'][:200]}\")",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "r = post(\"/api/ai/query\", {\"question\": \"How can I request an internship convention?\"})\nprint(f\"  Answer preview: {r['answer'][:200]}\")\nprint(f\"  Sources: {[s['title'] for s in r['sources']]}\")\nprint(\"  ✓ PASS\")\n# ── 6. Email types ───────────────────────────────────────\nsep(\"6. Email types (GET /api/emails/types)\")\ntypes = get(\"/api/emails/types\")\nfor k, v in types.items():\n    print(f\"  {k}: {v}\")\nassert \"attestation\" in types, \"FAILED\"",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "types = get(\"/api/emails/types\")\nfor k, v in types.items():\n    print(f\"  {k}: {v}\")\nassert \"attestation\" in types, \"FAILED\"\nprint(\"  ✓ PASS\")\n# ── 7. Generate email ────────────────────────────────────\nsep(\"7. Generate administrative email (POST /api/emails/generate)\")\nr = post(\"/api/emails/generate\", {\n    \"email_type\":   \"attestation\",\n    \"student_name\": \"Mohamed Taoufik Ben Abdallah\",",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "r = post(\"/api/emails/generate\", {\n    \"email_type\":   \"attestation\",\n    \"student_name\": \"Mohamed Taoufik Ben Abdallah\",\n    \"student_id\":   \"21INF042\",\n    \"details\":      \"Pour constitution de dossier de visa Schengen\",\n})\nprint(f\"  Subject: {r['generated']['subject']}\")\nprint(f\"  Body preview:\\n\")\nprint(\"  \" + \"\\n  \".join(r['generated']['body'][:500].split(\"\\n\")))\nassert r['generated']['body'], \"FAILED — empty body\"",
+        "detail": "backend.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "emails",
+        "kind": 5,
+        "importPath": "backend.test_api",
+        "description": "backend.test_api",
+        "peekOfCode": "emails = get(\"/api/emails/\")\nprint(f\"  Total saved emails: {len(emails)}\")\nfor e in emails[:3]:\n    print(f\"    [{e['id']}] {e['subject'][:60]} ({e.get('email_type', '-')})\")\nprint(\"  ✓ PASS\")\nprint(\"\\n\" + \"=\" * 55)\nprint(\"  ALL TESTS PASSED ✓\")\nprint(\"=\" * 55 + \"\\n\")",
+        "detail": "backend.test_api",
+        "documentation": {}
+    }
+]
